@@ -1,0 +1,6 @@
+filein = open('myfile.txt')
+content = filein.readline()
+print(content)
+content = filein.readline()
+print(content)
+filein.close()
